@@ -18,10 +18,10 @@ Dalam rangka menciptakan sistem rekomendasi blog yang efektif, diperlukan pemaha
 Berdasarkan uraian diatas, dapat ditarik sebagai berikut
 
 ### Problem Statements
-1. Bagaimana mengembangkan sistem rekomendasi blog  yang dapat merekomendasikan blog yang relevan dengan presisi 90%?
+1. Bagaimana mengembangkan sistem rekomendasi blog  yang dapat merekomendasikan blog yang relevan dengan presisi minimal 90%?
 
 ### Goals
-1. Mengembangkan sistem rekomendasi blog  yang dapat merekomendasikan blog yang relevan dengan presisi 90%.
+1. Mengembangkan sistem rekomendasi blog  yang dapat merekomendasikan blog yang relevan dengan presisi minimal 90%.
 
 ### Solution Statement
    Tahapan untuk menyelesaikan tujuan dari proyek ini adalah sebagai berikut.
