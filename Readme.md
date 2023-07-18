@@ -27,7 +27,7 @@ Berdasarkan uraian diatas, dapat ditarik sebagai berikut
 * Membangun model sistem rekomendasi dimana akan menggunakan pendekatan Content Based Filtering yaitu dengan memberikan rekomendasi berdasarkan blog yang pernah dibaca pengguna dengan mengukur kesamaan blog berdasarkan topic. Model Content Based Filtering yang akan dibangun menggunaka metode Cosine Similarity dan evaluasi akan menggunakan metode Precission.
 
 ## Data Understanding
-Dataset yang digunakan dalam proyek ini adalah Blog Recommendation Data yang dari [kaggle](https://www.kaggle.com/datasets/laotse/credit-risk-dataset). Dataset terdiri dari 3 filr csv yaitu
+Dataset yang digunakan dalam proyek ini adalah Blog Recommendation Data yang dari [kaggle]([https://www.kaggle.com/datasets/laotse/credit-risk-dataset](https://www.kaggle.com/datasets/yakshshah/blog-recommendation-data)). Dataset terdiri dari 3 filr csv yaitu
 
 * Medium Blog Data.csv yang berisi informasi data blog
 * Blog Ratings.csv yang berisi data penilaian blog oleh pengguna
