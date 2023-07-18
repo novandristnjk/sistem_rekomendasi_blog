@@ -24,11 +24,7 @@ Berdasarkan uraian diatas, dapat ditarik sebagai berikut
 1. Mengembangkan sistem rekomendasi blog  yang dapat merekomendasikan blog yang relevan dengan presisi minimal 90%.
 
 ### Solution Statement
-   Tahapan untuk menyelesaikan tujuan dari proyek ini adalah sebagai berikut.
-
-* Melakukan Exploratory Data Analysis (EDA) untuk melakukan pembersihan data, visualisasi diagram dan analisis mengenai tren blog.
-
-* Membangun model sistem rekomendasi dimana akan menggunakan pendekatan Content Based Filtering yaitu dengan memberikan rekomendasi berdasarkan Anime yang pernah dibaca pengguna dengan mengukur kesamaan blog berdasarkan topic. Model Content Based Filtering yang akan dibangun menggunaka metode Cosine Similarity dan evaluasi akan menggunakan metode Precission.
+* Membangun model sistem rekomendasi dimana akan menggunakan pendekatan Content Based Filtering yaitu dengan memberikan rekomendasi berdasarkan blog yang pernah dibaca pengguna dengan mengukur kesamaan blog berdasarkan topic. Model Content Based Filtering yang akan dibangun menggunaka metode Cosine Similarity dan evaluasi akan menggunakan metode Precission.
 
 ## Data Understanding
 Dataset yang digunakan dalam proyek ini adalah Blog Recommendation Data yang dari [kaggle](https://www.kaggle.com/datasets/laotse/credit-risk-dataset). Dataset terdiri dari 3 filr csv yaitu
