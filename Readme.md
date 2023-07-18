@@ -205,7 +205,23 @@ Dari nilai metrik evaluasi terlihat model memiliki kemampuan rekomendasi yang ba
 
 ## Conclusion
 
-Berdasarkan hasil dari sistem rekomendasi dengan metode Content-Based Filtering, model dengan metode perhitungan Cosine Similarity memberikan hasil dengan nilai presisi sebesar 100%.
+Dalam era digital yang semakin maju, blog telah menjadi sumber informasi yang tak terhitung jumlahnya. Setiap hari, ribuan blog baru muncul di berbagai topik, mulai dari teknologi, gaya hidup, keuangan, hingga kesehatan. Namun, dengan ledakan informasi ini, pengguna sering kali mengalami kesulitan dalam menavigasi melalui banyaknya pilihan dan menemukan blog yang relevan dengan minat mereka.
+Salah satu keuntungan utama dari sistem rekomendasi blog adalah penggunaan preferensi individual. Setiap pengguna memiliki minat yang unik dan preferensi yang berbeda dalam hal topik, gaya penulisan, atau pendekatan yang diinginkan. Dengan memanfaatkan data pengguna, seperti riwayat kunjungan, preferensi topik, atau penilaian, sistem rekomendasi dapat menyusun profil pengguna yang akurat dan memberikan rekomendasi yang lebih personal.
+Sistem rekomendasi blog juga memiliki potensi bisnis yang besar. Dalam lingkungan yang penuh persaingan ini, pemilik blog dan platform berlomba-lomba untuk menarik dan mempertahankan pengguna. Dengan memberikan rekomendasi blog yang paling relevan dan menarik, sistem rekomendasi blog dapat meningkatkan keterlibatan pengguna, memperluas jangkauan audiens, dan meningkatkan kepuasan pengguna. Hal ini berpotensi membawa dampak positif pada pertumbuhan bisnis dan keberhasilan platform.
+
+Sistem rekomendasi akan dibangun menggunakan pendekatan Content Based Filtering yaitu dengan memberikan rekomendasi berdasarkan blog yang pernah dibaca pengguna dengan mengukur kesamaan blog berdasarkan topic. Model Content Based Filtering yang akan dibangun menggunaka metode Cosine Similarity dan evaluasi akan menggunakan metode Precission. Dataset terdiri dari 3 filr csv yaitu
+
+* Medium Blog Data.csv yang berisi informasi data blog
+* Blog Ratings.csv yang berisi data penilaian blog oleh pengguna
+* Author Sata.csv yang berisi data penulis blog
+
+Sebelum data digunakan, terlebih dahulu dilakukan tahap dapat data preparation. Pada tahap ini dilakukan preprocessing data yang akan digunakan untuk rekomendasi. Setelah itu dilakukan pengecekan data yang bernilai null, didapat data sudah bersih dan tidak ada missing value. Data yang dimiliki terlalu besar sehingga lingkungan google colab versi free tidak dapat menangani proses komputasi. Untuk itu data perlu dikurangi menggunakan random sampling, dengan mengambil 1000 sampel acak dari keseluruhan data.
+Random Sampling dipilih karena, dengan jumlah data yang sangat besar, melakukan analisis pada seluruh dataset akan memakan waktu dan sumber daya komputasi yang besar. Random sampling dapat membantu mengatasi masalah keterbatasan sumber daya, terutama ketika data sangat besar dan kompleks. Dalam situasi di mana keterbatasan membatasi kemampuan untuk memproses keseluruhan data, random sampling memberikan alternatif yang efektif untuk melakukan analisis dan eksperimen tanpa harus mengorbankan kualitas hasil.
+Selain itu, random sampling dapat mengurangi bias yang mungkin muncul dalam proses pengambilan sampel. Dengan mendapatkan sampel secara acak, setiap entitas dalam populasi (dalam kasus ini, blog) memiliki peluang yang sama untuk menjadi bagian dari sampel. Hal ini mengurangi risiko pemilihan sampel yang cenderung memihak pada karakteristik tertentu, sehingga memastikan representasi yang lebih objektif dari keseluruhan populasi.
+
+Pada proyek ini, diterapkan metode Content Based Filtering. Metode ini mengambil informasi tentang item dan mencocokkannya dengan profil atau preferensi pengguna untuk memberikan rekomendasi yang sesuai. Pendekatan Content-Based Filtering didasarkan pada asumsi bahwa pengguna lebih cenderung tertarik dengan item yang memiliki karakteristik serupa dengan item yang mereka sukai sebelumnya. Oleh karena itu, metode ini mengidentifikasi atribut-atribut penting dari setiap item, seperti topik, genre, kata kunci, atau metadata lainnya, dan membangun profil konten untuk setiap item.
+
+Output dari Content-Based Filtering adalah daftar rekomendasi blog untuk setiap user berdasarkan pengukuran kemiripan dengan blog preferensi pengguna. Dari hasil evaluasi, dapat dilihat bahwa sistem rekomendasi yang dibuat sudah sangat baik dan layak digunakan. Sistem rekomendasi dengan metode Content-Based Filtering hasil yang sangat baik nilai presisi sebesar 100%.
 
 ## Reference
 
