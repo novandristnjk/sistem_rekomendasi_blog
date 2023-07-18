@@ -225,8 +225,8 @@ Output dari Content-Based Filtering adalah daftar rekomendasi blog untuk setiap 
 
 ## Reference
 
-[1]   O'Connor, R., & Smyth, B. (2010). From recommender systems to conversational recommendation. In Proceedings of the 4th ACM conference on Recommender systems (pp. 301-304).
+[1]   Jayaram, D., Prasad, G. (2022). (2010).Book Recommendation System Just Read It!. International Journal of Advanced Research in Computer and Communication Engineering.
 
-[2]   Adomavicius, G., & Tuzhilin, A. (2005). Toward the next generation of recommender systems: a survey of the state-of-the-art and possible extensions. IEEE Transactions on Knowledge and Data Engineering, 17(6), 734-749.
+[2]   Patel, U., Patel, D., Patel, S., Patel, V., & Patel, Y. (2021).Blog Recommendation System. IOSR Journal of Computer Engineering, 23(5), 32-34.
 
 [3]   Ricci, F., Rokach, L., & Shapira, B. (2015). Recommender systems: introduction and challenges. In Recommender Systems Handbook (pp. 1-34). Springer.
