@@ -118,7 +118,8 @@ Proses Content-Based Filtering dimulai dengan membuat profil atau vektor fitur u
 Selanjutnya, profil konten dari item-item yang relevan dengan preferensi pengguna dikumpulkan untuk membentuk profil preferensi pengguna. Profil ini mencerminkan minat dan preferensi unik pengguna berdasarkan riwayat interaksinya dengan item sebelumnya.
 
 Setelah profil konten dan profil preferensi pengguna terbentuk, metode Content-Based Filtering menggunakan teknik pengukuran kemiripan __cosine similarity__ untuk mencocokkan profil konten item dengan profil preferensi pengguna. Item yang memiliki kemiripan yang tinggi dengan profil preferensi pengguna akan dianggap lebih relevan dan direkomendasikan kepada pengguna. __Cosine similarity__ dapat dihitung dengan rumus berikut.
-Cosine Similarity = (A . B) / (||A|| * ||B||)
+
+<center>Cosine Similarity = (A . B) / (||A|| * ||B||)</center>center>
 
 Keuntungan dari Content-Based Filtering adalah kemampuannya untuk memberikan rekomendasi yang personal dan spesifik untuk setiap pengguna. Metode ini juga tidak bergantung pada informasi dari pengguna lain atau interaksi sosial, sehingga tidak mengalami masalah cold start yang sering terjadi pada metode berbasis kolaboratif. Selain itu, Content-Based Filtering dapat mengatasi masalah popularitas dan kesenjangan informasi karena mampu merekomendasikan item yang kurang populer namun relevan dengan minat pengguna.
 
