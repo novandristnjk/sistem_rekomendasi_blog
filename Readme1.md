@@ -173,7 +173,7 @@ Tabel 8. Judul blog yang akan dijadikan patokan untuk mendapatkan daftar rekomen
 |  1 | 2226 | How to Emboss Images using Python | image-processing    |
 |  2 | 5095 | EVE Ignites NFT Hope              | web3                |
 
-#### Rekimendasi Blog Tasha’s Trinkets
+#### Rekomendasi Blog Tasha’s Trinkets
 Tabel 9. Daftar rekomendasi blog dengan judul blog patokan Tasha’s Trinkets
 
 |    | title                                                                                                                                                           | topic               |
@@ -185,6 +185,8 @@ Tabel 9. Daftar rekomendasi blog dengan judul blog patokan Tasha’s Trinkets
 |  4 | [ AI ] 讓 ChatGPT 當我的 Software Project 同事?                                                                                                                 | backend-development |
 
 Berdasarkan hasil dari tabel diatas, keseluruhan rekomendasi blog memiliki topic yang sama dengan topic blog patokan. Maka nilai presisi dari rekomendasi pada tabel 9 adalah 100%.
+
+#### Rekomendasi Blog How to Emboss Images using Python
 
 Tabel 10. Daftar rekomendasi blog dengan judul blog patokan How to Emboss Images using Python
 
@@ -198,6 +200,7 @@ Tabel 10. Daftar rekomendasi blog dengan judul blog patokan How to Emboss Images
 
 Berdasarkan hasil dari tabel diatas, keseluruhan rekomendasi blog memiliki topic yang sama dengan topic blog patokan. Maka nilai presisi dari rekomendasi pada tabel 10 adalah 100%.
 
+#### Rekomendasi Blog EVE Ignites NFT Hope
 Tabel 11. Daftar rekomendasi blog dengan judul blog patokan EVE Ignites NFT Hope
 
 |    | title                                                                                           | topic   |
