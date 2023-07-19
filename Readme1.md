@@ -13,7 +13,7 @@ Secara keseluruhan, sistem rekomendasi blog memiliki peran krusial dalam meningk
 
 ## Business Understanding
 
-Berdasarkan uraian diatas, dapat ditarik sebagai berikut
+Sistem rekomendasi blog juga memiliki potensi bisnis yang besar. Dalam lingkungan yang penuh persaingan ini, pemilik blog dan platform berlomba-lomba untuk menarik dan mempertahankan pengguna. Dengan memberikan rekomendasi blog yang paling relevan dan menarik, sistem rekomendasi blog dapat meningkatkan keterlibatan pengguna, memperluas jangkauan audiens, dan meningkatkan kepuasan pengguna. Hal ini berpotensi membawa dampak positif pada pertumbuhan bisnis dan keberhasilan platform.
 
 ### Problem Statements
 1. Bagaimana mengembangkan sistem rekomendasi blog  yang dapat merekomendasikan blog yang relevan dengan presisi minimal 90%?
