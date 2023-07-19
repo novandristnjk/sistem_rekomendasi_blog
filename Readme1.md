@@ -162,7 +162,7 @@ Rumus:
 
 Recall = $\frac{{\text{{True Positive}}}}{{\text{{True Positive}} + \text{{False Negative}}}}$
 
-
+### Percobaan Rekomendasi Blog
 Pada proyek ini, penulis akan melakukan percobaan untuk mendapatkan rekomendasi blog dimana ada 3 judul blog yang akan dijadikan bahan percobaan. Untuk nilai TP dapat diberikan jika topic tersebut sama dengan blog yang jadi patokan.
 
 Tabel 8. Judul blog yang akan dijadikan patokan untuk mendapatkan daftar rekomendasi blog
@@ -173,6 +173,7 @@ Tabel 8. Judul blog yang akan dijadikan patokan untuk mendapatkan daftar rekomen
 |  1 | 2226 | How to Emboss Images using Python | image-processing    |
 |  2 | 5095 | EVE Ignites NFT Hope              | web3                |
 
+#### Rekimendasi Blog Tasha’s Trinkets
 Tabel 9. Daftar rekomendasi blog dengan judul blog patokan Tasha’s Trinkets
 
 |    | title                                                                                                                                                           | topic               |
