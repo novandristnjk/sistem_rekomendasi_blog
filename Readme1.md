@@ -16,13 +16,13 @@ Secara keseluruhan, sistem rekomendasi blog memiliki peran krusial dalam meningk
 Sistem rekomendasi blog memiliki potensi bisnis yang besar. Dalam lingkungan yang penuh persaingan ini, pemilik blog dan platform berlomba-lomba untuk menarik dan mempertahankan pengguna. Dengan memberikan rekomendasi blog yang paling relevan dan menarik, sistem rekomendasi blog dapat meningkatkan keterlibatan pengguna, memperluas jangkauan audiens, dan meningkatkan kepuasan pengguna. Hal ini berpotensi membawa dampak positif pada pertumbuhan bisnis dan keberhasilan platform.
 
 ### Problem Statements
-1. Bagaimana mengembangkan sistem rekomendasi blog  yang dapat merekomendasikan blog yang relevan dengan presisi dan __recall__ minimal 90%?
+1. Bagaimana mengembangkan sistem rekomendasi blog  yang dapat merekomendasikan blog yang relevan dengan presisi dan _recall_ minimal 90%?
 
 ### Goals
 1.  Mengembangkan sistem rekomendasi blog  yang dapat merekomendasikan blog yang relevan dengan presisi dan __recall__ minimal 90%?
 
 ### Solution Statement
-* Membangun model sistem rekomendasi dimana akan menggunakan pendekatan Content Based Filtering yaitu dengan memberikan rekomendasi berdasarkan blog yang pernah dibaca pengguna dengan mengukur kesamaan blog berdasarkan topic. Model Content Based Filtering yang akan dibangun menggunaka metode Cosine Similarity dan evaluasi akan menggunakan __precission__, __recall__, dan __f1-score__.
+* Membangun model sistem rekomendasi dimana akan menggunakan pendekatan Content Based Filtering yaitu dengan memberikan rekomendasi berdasarkan blog yang pernah dibaca pengguna dengan mengukur kesamaan blog berdasarkan topic. Model Content Based Filtering yang akan dibangun menggunaka metode _Cosine Similarity_ dan evaluasi akan menggunakan _precission_, _recall_, dan _f1-score_.
 
 ## Data Understanding
 Dataset yang digunakan dalam proyek ini adalah Blog Recommendation Data yang dari [kaggle]([https://www.kaggle.com/datasets/laotse/credit-risk-dataset](https://www.kaggle.com/datasets/yakshshah/blog-recommendation-data)). Dataset terdiri dari 3 filr csv yaitu
@@ -201,7 +201,7 @@ $Recall$ = $\frac{{\text{{5}}}}{{\text{{5}} + \text{{0}}}}$
 
 $Recall$ = $1$
 
-Berdasarkan hasil tersebut, maka nilai __precission__ dan __recall__ dari rekomendasi pada tabel 9 adalah 100%.
+Berdasarkan hasil tersebut, maka nilai __lprecission_ dan _recall_ dari rekomendasi pada tabel 9 adalah 100%.
 
 #### Rekomendasi Blog How to Emboss Images using Python
 
@@ -260,9 +260,9 @@ $Recall$ = $\frac{{\text{{5}}}}{{\text{{5}} + \text{{0}}}}$
 
 $Recall$ = $1$
 
-Berdasarkan hasil tersebut, maka nilai __precission__ dan __recall__ dari rekomendasi pada tabel 11 adalah 100%.
+Berdasarkan hasil tersebut, maka nilai _precission_ dan _recall_ dari rekomendasi pada tabel 11 adalah 100%.
 
-Dari nilai metrik evaluasi terlihat model memiliki kemampuan rekomendasi yang sangat baik.Content-based filtering yang nilai presisi dan __recall__ mencapai 100% yang artinya blog yang direkomendasikan sangat relevan dengan blog patokan. Ini juga menjadi kelebihan pendekatan content-based filtering yang bisa secara tepat memberikan rekomendasi blog yang spesifik.
+Dari nilai metrik evaluasi terlihat model memiliki kemampuan rekomendasi yang sangat baik.Content-based filtering yang nilai presisi dan _recall_ mencapai 100% yang artinya blog yang direkomendasikan sangat relevan dengan blog patokan. Ini juga menjadi kelebihan pendekatan content-based filtering yang bisa secara tepat memberikan rekomendasi blog yang spesifik.
 
 
 ## Conclusion
@@ -283,7 +283,7 @@ Selain itu, random sampling dapat mengurangi bias yang mungkin muncul dalam pros
 
 Pada proyek ini, diterapkan metode Content Based Filtering. Metode ini mengambil informasi tentang item dan mencocokkannya dengan profil atau preferensi pengguna untuk memberikan rekomendasi yang sesuai. Pendekatan Content-Based Filtering didasarkan pada asumsi bahwa pengguna lebih cenderung tertarik dengan item yang memiliki karakteristik serupa dengan item yang mereka sukai sebelumnya. Oleh karena itu, metode ini mengidentifikasi atribut-atribut penting dari setiap item, seperti topik, genre, kata kunci, atau metadata lainnya, dan membangun profil konten untuk setiap item.
 
-Output dari Content-Based Filtering adalah daftar rekomendasi blog untuk setiap user berdasarkan pengukuran kemiripan dengan blog preferensi pengguna. Dari hasil evaluasi, dapat dilihat bahwa sistem rekomendasi yang dibuat sudah sangat baik dan layak digunakan. Sistem rekomendasi dengan metode Content-Based Filtering hasil yang sangat baik nilai presisi dan __recall__ sebesar 100%.
+Output dari Content-Based Filtering adalah daftar rekomendasi blog untuk setiap user berdasarkan pengukuran kemiripan dengan blog preferensi pengguna. Dari hasil evaluasi, dapat dilihat bahwa sistem rekomendasi yang dibuat sudah sangat baik dan layak digunakan. Sistem rekomendasi dengan metode Content-Based Filtering hasil yang sangat baik nilai presisi dan _recall_ sebesar 100%.
 
 ## Reference
 
