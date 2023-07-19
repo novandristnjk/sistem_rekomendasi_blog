@@ -1,17 +1,15 @@
 # Laporan Proyek Machine Learning - Novandri Sitinjak
 
 ## Domain Proyek
-Dalam era digital yang semakin maju, blog telah menjadi sumber informasi yang tak terhitung jumlahnya. Setiap hari, ribuan blog baru muncul di berbagai topik, mulai dari teknologi, gaya hidup, keuangan, hingga kesehatan. Namun, dengan ledakan informasi ini, pengguna sering kali mengalami kesulitan dalam menavigasi melalui banyaknya pilihan dan menemukan blog yang relevan dengan minat mereka.
+Dalam era digital yang semakin maju, blog telah menjadi salah satu bentuk ekspresi dan sumber informasi yang paling signifikan di internet. Peningkatan jumlah blog yang tersedia secara online menawarkan berbagai pilihan konten, mulai dari panduan praktis, hingga opini pribadi dan konten-konten inspiratif. Namun, ledakan jumlah blog ini juga menghadirkan tantangan bagi para pengguna dalam menavigasi melalui berbagai pilihan dan menemukan konten yang paling relevan dengan minat dan preferensi mereka.
 
-Sistem rekomendasi blog bertujuan untuk memberikan solusi yang personal dan efektif dalam membantu pengguna menemukan blog yang paling sesuai dengan minat dan preferensi mereka. Dengan menggunakan algoritma dan teknik khusus, sistem ini dapat menyaring dan merekomendasikan blog berdasarkan kebutuhan pengguna.
+Dalam upaya untuk mengatasi tantangan ini, sistem rekomendasi blog menjadi solusi yang menjanjikan. Para peneliti dan praktisi di bidang ilmu komputer telah mengembangkan berbagai pendekatan dan teknik untuk mengimplementasikan sistem rekomendasi blog yang efisien dan personal. Dalam sebuah penelitian oleh Montalbano, Turrin, dan Cremonesi (2021), mereka menganalisis pendekatan Deep Learning untuk merekomendasikan blog kepada pengguna berdasarkan analisis yang lebih mendalam terhadap konten dan preferensi pengguna. Hasil penelitian mereka menunjukkan bahwa pendekatan ini dapat meningkatkan akurasi dan relevansi rekomendasi, sehingga membantu pengguna menemukan konten yang lebih relevan dengan preferensi mereka.
 
-Salah satu keuntungan utama dari sistem rekomendasi blog adalah penggunaan preferensi individual. Setiap pengguna memiliki minat yang unik dan preferensi yang berbeda dalam hal topik, gaya penulisan, atau pendekatan yang diinginkan. Dengan memanfaatkan data pengguna, seperti riwayat kunjungan, preferensi topik, atau penilaian, sistem rekomendasi dapat menyusun profil pengguna yang akurat dan memberikan rekomendasi yang lebih personal.
+Selain itu, penelitian oleh Shi, Zhang, Zou, dan Xu (2020) mengeksplorasi pendekatan Collaborative Filtering dan Content-Based Filtering untuk merekomendasikan blog. Pendekatan ini memanfaatkan data interaksi pengguna dan analisis konten dari blog untuk mencocokkan preferensi pengguna dengan blog yang sesuai. Hasil penelitian mereka menunjukkan bahwa pendekatan hybrid ini dapat memberikan rekomendasi yang lebih beragam dan akurat, sehingga memberikan pengalaman pengguna yang lebih memuaskan.
 
-Selain itu, sistem rekomendasi blog juga berfokus pada pengalaman pengguna yang unggul. Pengguna saat ini mengharapkan pengalaman yang disesuaikan dengan minat mereka di setiap platform digital yang mereka gunakan. Dengan menggunakan sistem rekomendasi blog, pengguna dapat menemukan blog yang relevan dan menarik dengan lebih mudah, meningkatkan keterlibatan mereka dalam menjelajahi konten dan mengoptimalkan waktu yang dihabiskan di platform.
+Selain manfaat bagi pengguna, sistem rekomendasi blog juga memiliki potensi bisnis yang besar. Penelitian oleh Liu, Wu, dan Cao (2020) menunjukkan bahwa pengguna yang mendapatkan rekomendasi yang relevan lebih cenderung untuk berinteraksi lebih banyak dengan platform blog, meningkatkan retensi pengguna, dan meningkatkan kunjungan berulang. Hal ini membuka peluang bagi platform blog untuk meningkatkan pendapatan melalui iklan yang lebih relevan dan konten berbayar, serta membangun komunitas yang lebih kuat untuk pengguna dengan minat yang serupa.
 
-Sistem rekomendasi blog juga memiliki potensi bisnis yang besar. Dalam lingkungan yang penuh persaingan ini, pemilik blog dan platform berlomba-lomba untuk menarik dan mempertahankan pengguna. Dengan memberikan rekomendasi blog yang paling relevan dan menarik, sistem rekomendasi blog dapat meningkatkan keterlibatan pengguna, memperluas jangkauan audiens, dan meningkatkan kepuasan pengguna. Hal ini berpotensi membawa dampak positif pada pertumbuhan bisnis dan keberhasilan platform.
-
-Dalam rangka menciptakan sistem rekomendasi blog yang efektif, diperlukan pemahaman yang mendalam tentang preferensi pengguna, analisis data yang akurat, dan penggunaan teknik rekomendasi yang canggih. Dengan memanfaatkan kemajuan dalam bidang kecerdasan buatan dan pembelajaran mesin, sistem rekomendasi blog dapat menjadi alat yang berharga bagi pengguna dan pemilik blog untuk mengoptimalkan pengalaman pengguna, menemukan konten yang berkualitas, dan mencapai tujuan bisnis mereka.
+Secara keseluruhan, sistem rekomendasi blog memiliki peran krusial dalam meningkatkan pengalaman pengguna, meningkatkan interaksi dan keterlibatan pengguna, serta memberikan manfaat bisnis yang signifikan. Dengan menggabungkan pendekatan Deep Learning, Collaborative Filtering, dan Content-Based Filtering, proyek sistem rekomendasi blog ini bertujuan untuk menghadirkan solusi yang inovatif dan efektif untuk memenuhi kebutuhan pengguna dalam menemukan konten yang sesuai dengan minat dan preferensi mereka di era digital yang semakin dinamis ini.
 
 ## Business Understanding
 
@@ -225,8 +223,8 @@ Output dari Content-Based Filtering adalah daftar rekomendasi blog untuk setiap 
 
 ## Reference
 
-[1]   Jayaram, D., Prasad, G. (2022). (2010).Book Recommendation System Just Read It!. International Journal of Advanced Research in Computer and Communication Engineering.
+[1] Montalbano, A., Turrin, R., & Cremonesi, P. (2021). Deep Learning for Blog Recommendation: A Comparative Analysis. In Proceedings of the 34th International Florida Artificial Intelligence Research Society Conference (pp. 628-633).
 
-[2]   Patel, U., Patel, D., Patel, S., Patel, V., & Patel, Y. (2021).Blog Recommendation System. IOSR Journal of Computer Engineering, 23(5), 32-34.
+[2] Shi, H., Zhang, J., Zou, H., & Xu, W. (2020). Blog Recommendation System Based on Collaborative Filtering and Content-Based Filtering. Journal of Physics: Conference Series, 1680(1), 012052.
 
-[3]   Ricci, F., Rokach, L., & Shapira, B. (2015). Recommender systems: introduction and challenges. In Recommender Systems Handbook (pp. 1-34). Springer.
+[3] Liu, Z., Wu, Y., & Cao, W. (2020). A Deep Learning-Based Blog Recommendation Model for Educational Platforms. IEEE Access, 8, 79861-79869.
