@@ -190,7 +190,7 @@ Precision = $\frac{{\text{{True Positive}}}}{{\text{{True Positive}} + \text{{Fa
 
 Precision = $\frac{{\text{{5}}}}{{\text{{5}} + \text{{0}}}}$
 
-Precision = $1$ $(100$%$)$
+Precision = $1$ $(100\%\)$
 
 
 Recall = $\frac{{\text{{True Positive}}}}{{\text{{True Positive}} + \text{{False Negative}}}}$
