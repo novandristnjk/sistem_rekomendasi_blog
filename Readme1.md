@@ -188,9 +188,10 @@ Berdasarkan hasil dari tabel diatas, nilai presisi dan __recall__ dapat diketahu
 
 Precision = $\frac{{\text{{True Positive}}}}{{\text{{True Positive}} + \text{{False Positive}}}}$
 
-Precision = $\frac{{\text{{1}}}}{{\text{{True Positive}} + \text{{False Positive}}}}$
+Precision = 1 (100%)
 
 
+Recall = $\frac{{\text{{True Positive}}}}{{\text{{True Positive}} + \text{{False Negative}}}}$
 
 #### Rekomendasi Blog How to Emboss Images using Python
 
