@@ -154,6 +154,22 @@ Rumus:
 
 Precision = $\frac{{\text{{True Positive}}}}{{\text{{True Positive}} + \text{{False Positive}}}}$
 
+### _Recall_
+_Recall_ (juga dikenal sebagai sensitivitas atau _true positive rate_) menggambarkan sejauh mana model dapat menemukan atau mengenali kasus positif secara keseluruhan dari semua kasus positif yang ada. Metrik ini penting ketika fokus utama adalah mengurangi kesalahan negatif palsu (_misclassification_ yang mengatakan bahwa suatu sampel adalah negatif ketika sebenarnya positif).
+Recall berguna dalam kasus di mana kesalahan negatif palsu memiliki konsekuensi yang lebih serius, misalnya dalam sistem deteksi kejahatan atau deteksi penyakit serius, di mana kesalahan mengabaikan kasus positif dapat berdampak besar.
+
+Rumus:
+
+Recall = $\frac{{\text{{True Positive}}}}{{\text{{True Positive}} + \text{{False Negative}}}}$
+
+### _F1-Score_
+_F1-score_ adalah harmonik rata-rata presisi dan _recall_, yang memberikan kompromi antara keduanya. Metrik ini berguna ketika kita ingin menyeimbangkan presisi dan _recall_ secara seimbang, terutama dalam kasus di mana kelas positif dan kelas negatif memiliki distribusi yang tidak seimbang dalam dataset.
+_F1-score_ berguna ketika ada ketidakseimbangan antara presisi dan recall yang diinginkan. Misalnya, dalam kasus deteksi spam email, di mana kita ingin meminimalkan kesalahan positif palsu (presisi tinggi) dan kesalahan negatif palsu (_recall_ tinggi) secara bersamaan.
+
+Rumus:
+
+F1-Score = $\frac{{2 \times (\text{{Precision}} \times \text{{Recall}})}}{{\text{{Precision}} + \text{{Recall}}}}$
+
 Pada proyek ini, penulis akan melakukan percobaan untuk mendapatkan rekomendasi blog dimana ada 3 judul blog yang akan dijadikan bahan percobaan. Untuk nilai TP dapat diberikan jika topic tersebut sama dengan blog yang jadi patokan.
 
 Tabel 8. Judul blog yang akan dijadikan patokan untuk mendapatkan daftar rekomendasi blog
