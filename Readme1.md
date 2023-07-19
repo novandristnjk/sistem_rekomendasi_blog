@@ -113,11 +113,12 @@ Content-Based Filtering adalah salah satu metode dalam sistem rekomendasi yang b
 
 Pendekatan Content-Based Filtering didasarkan pada asumsi bahwa pengguna lebih cenderung tertarik dengan item yang memiliki karakteristik serupa dengan item yang mereka sukai sebelumnya. Oleh karena itu, metode ini mengidentifikasi atribut-atribut penting dari setiap item, seperti topik, genre, kata kunci, atau metadata lainnya, dan membangun profil konten untuk setiap item.
 
-Proses Content-Based Filtering dimulai dengan membuat profil atau vektor fitur untuk setiap item dalam dataset. Misalnya, dalam konteks sistem rekomendasi blog, profil konten untuk setiap blog dapat berisi informasi tentang topik, tag, kategori, penulis, dan kata kunci yang terkait dengan blog tersebut.
+Proses Content-Based Filtering dimulai dengan membuat profil atau vektor fitur untuk setiap item dalam dataset. Misalnya, dalam konteks sistem rekomendasi blog ini, profil konten untuk setiap blog dapat berisi informasi tentang topik, tag, kategori, penulis, dan kata kunci yang terkait dengan blog tersebut.
 
 Selanjutnya, profil konten dari item-item yang relevan dengan preferensi pengguna dikumpulkan untuk membentuk profil preferensi pengguna. Profil ini mencerminkan minat dan preferensi unik pengguna berdasarkan riwayat interaksinya dengan item sebelumnya.
 
-Setelah profil konten dan profil preferensi pengguna terbentuk, metode Content-Based Filtering menggunakan teknik pengukuran kemiripan (seperti cosine similarity atau Jaccard similarity) untuk mencocokkan profil konten item dengan profil preferensi pengguna. Item yang memiliki kemiripan yang tinggi dengan profil preferensi pengguna akan dianggap lebih relevan dan direkomendasikan kepada pengguna.
+Setelah profil konten dan profil preferensi pengguna terbentuk, metode Content-Based Filtering menggunakan teknik pengukuran kemiripan __cosine similarity__ untuk mencocokkan profil konten item dengan profil preferensi pengguna. Item yang memiliki kemiripan yang tinggi dengan profil preferensi pengguna akan dianggap lebih relevan dan direkomendasikan kepada pengguna. __Cosine similarity__ dapat dihitung dengan rumus berikut.
+Cosine Similarity = (A . B) / (||A|| * ||B||)
 
 Keuntungan dari Content-Based Filtering adalah kemampuannya untuk memberikan rekomendasi yang personal dan spesifik untuk setiap pengguna. Metode ini juga tidak bergantung pada informasi dari pengguna lain atau interaksi sosial, sehingga tidak mengalami masalah cold start yang sering terjadi pada metode berbasis kolaboratif. Selain itu, Content-Based Filtering dapat mengatasi masalah popularitas dan kesenjangan informasi karena mampu merekomendasikan item yang kurang populer namun relevan dengan minat pengguna.
 
