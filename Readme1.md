@@ -9,7 +9,7 @@ Selain itu, penelitian oleh Shi, Zhang, Zou, dan Xu (2020) mengeksplorasi pendek
 
 Selain manfaat bagi pengguna, sistem rekomendasi blog juga memiliki potensi bisnis yang besar. Penelitian oleh Liu, Wu, dan Cao (2020) menunjukkan bahwa pengguna yang mendapatkan rekomendasi yang relevan lebih cenderung untuk berinteraksi lebih banyak dengan platform blog, meningkatkan retensi pengguna, dan meningkatkan kunjungan berulang. Hal ini membuka peluang bagi platform blog untuk meningkatkan pendapatan melalui iklan yang lebih relevan dan konten berbayar, serta membangun komunitas yang lebih kuat untuk pengguna dengan minat yang serupa.
 
-Secara keseluruhan, sistem rekomendasi blog memiliki peran krusial dalam meningkatkan pengalaman pengguna, meningkatkan interaksi dan keterlibatan pengguna, serta memberikan manfaat bisnis yang signifikan. Dengan menggabungkan pendekatan Deep Learning, Collaborative Filtering, dan Content-Based Filtering, proyek sistem rekomendasi blog ini bertujuan untuk menghadirkan solusi yang inovatif dan efektif untuk memenuhi kebutuhan pengguna dalam menemukan konten yang sesuai dengan minat dan preferensi mereka di era digital yang semakin dinamis ini.
+Secara keseluruhan, sistem rekomendasi blog memiliki peran krusial dalam meningkatkan pengalaman pengguna, meningkatkan interaksi dan keterlibatan pengguna, serta memberikan manfaat bisnis yang signifikan. Dengan menggunakan pendekatan Content-Based Filtering, proyek sistem rekomendasi blog ini bertujuan untuk menghadirkan solusi yang inovatif dan efektif untuk memenuhi kebutuhan pengguna dalam menemukan konten yang sesuai dengan minat dan preferensi mereka di era digital yang semakin dinamis ini.
 
 ## Business Understanding
 
