@@ -184,7 +184,13 @@ Tabel 9. Daftar rekomendasi blog dengan judul blog patokan Tasha’s Trinkets
 |  3 | [ AI ] 讓 ChatGPT 當我的 Software Project 同事?                                                                                                                 | backend-development |
 |  4 | [ AI ] 讓 ChatGPT 當我的 Software Project 同事?                                                                                                                 | backend-development |
 
-Berdasarkan hasil dari tabel diatas, keseluruhan rekomendasi blog memiliki topic yang sama dengan topic blog patokan. Maka nilai presisi dari rekomendasi pada tabel 9 adalah 100%.
+Berdasarkan hasil dari tabel diatas, nilai presisi dan __recall__ dapat diketahui
+
+Precision = $\frac{{\text{{True Positive}}}}{{\text{{True Positive}} + \text{{False Positive}}}}$
+
+Precision = $\frac{{\text{{1}}}}{{\text{{True Positive}} + \text{{False Positive}}}}$
+
+
 
 #### Rekomendasi Blog How to Emboss Images using Python
 
