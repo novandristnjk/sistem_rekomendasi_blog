@@ -144,7 +144,7 @@ Tabel 7. Hasil 5 blog yang direkomendasikan
 |  4 | [ AI ] 讓 ChatGPT 當我的 Software Project 同事?                                                                                                                 | backend-development |
 
 ## Evaluation
-Metrik evaluasi yang digunakan dalam proyek ini adalah presisi
+Metrik evaluasi yang digunakan dalam proyek ini adalah presisi dan __recall__.
 
 ### Presisi(_Precision_)
 Presisi menggambarkan sejauh mana model dapat mengidentifikasi dengan benar kasus positif dari prediksi positif yang dilakukan. Metrik ini penting ketika fokus utama adalah mengurangi kesalahan positif palsu (_misclassification_ yang mengatakan bahwa suatu sampel adalah positif ketika sebenarnya negatif).
@@ -162,13 +162,6 @@ Rumus:
 
 Recall = $\frac{{\text{{True Positive}}}}{{\text{{True Positive}} + \text{{False Negative}}}}$
 
-### _F1-Score_
-_F1-score_ adalah harmonik rata-rata presisi dan _recall_, yang memberikan kompromi antara keduanya. Metrik ini berguna ketika kita ingin menyeimbangkan presisi dan _recall_ secara seimbang, terutama dalam kasus di mana kelas positif dan kelas negatif memiliki distribusi yang tidak seimbang dalam dataset.
-_F1-score_ berguna ketika ada ketidakseimbangan antara presisi dan recall yang diinginkan. Misalnya, dalam kasus deteksi spam email, di mana kita ingin meminimalkan kesalahan positif palsu (presisi tinggi) dan kesalahan negatif palsu (_recall_ tinggi) secara bersamaan.
-
-Rumus:
-
-F1-Score = $\frac{{2 \times (\text{{Precision}} \times \text{{Recall}})}}{{\text{{Precision}} + \text{{Recall}}}}$
 
 Pada proyek ini, penulis akan melakukan percobaan untuk mendapatkan rekomendasi blog dimana ada 3 judul blog yang akan dijadikan bahan percobaan. Untuk nilai TP dapat diberikan jika topic tersebut sama dengan blog yang jadi patokan.
 
