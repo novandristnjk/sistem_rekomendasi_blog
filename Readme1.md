@@ -186,11 +186,11 @@ Tabel 9. Daftar rekomendasi blog dengan judul blog patokan Tasha’s Trinkets
 
 Berdasarkan hasil dari tabel diatas, nilai presisi dan __recall__ dapat diketahui
 
-Precision = $\frac{{\text{{True Positive}}}}{{\text{{True Positive}} + \text{{False Positive}}}}$
+$Precision$ = $\frac{{\text{{True Positive}}}}{{\text{{True Positive}} + \text{{False Positive}}}}$
 
 Precision = $\frac{{\text{{5}}}}{{\text{{5}} + \text{{0}}}}$
 
-Precision = $1$ $(100\%\)$
+Precision = $1$
 
 
 Recall = $\frac{{\text{{True Positive}}}}{{\text{{True Positive}} + \text{{False Negative}}}}$
