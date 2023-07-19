@@ -188,12 +188,19 @@ Berdasarkan hasil dari tabel diatas, nilai presisi dan __recall__ dapat diketahu
 
 $Precision$ = $\frac{{\text{{True Positive}}}}{{\text{{True Positive}} + \text{{False Positive}}}}$
 
-Precision = $\frac{{\text{{5}}}}{{\text{{5}} + \text{{0}}}}$
+$Precision$ = $\frac{{\text{{5}}}}{{\text{{5}} + \text{{0}}}}$
 
-Precision = $1$
+$Precision$ = $1$
 
 
-Recall = $\frac{{\text{{True Positive}}}}{{\text{{True Positive}} + \text{{False Negative}}}}$
+
+$Recall$ = $\frac{{\text{{True Positive}}}}{{\text{{True Positive}} + \text{{False Negative}}}}$
+
+$Recall$ = $\frac{{\text{{5}}}}{{\text{{5}} + \text{{0}}}}$
+
+$Recall$ = $1$
+
+Berdasarkan hasil tersebut, maka nilai __precission__ dan __recall__ dari rekomendasi pada tabel 9 adalah 100%.
 
 #### Rekomendasi Blog How to Emboss Images using Python
 
@@ -207,7 +214,23 @@ Tabel 10. Daftar rekomendasi blog dengan judul blog patokan How to Emboss Images
 |  3 | Why do I receive errors using IFANBEAM for matrices with NaN | image-processing |
 |  4 | Why do I receive errors using IFANBEAM for matrices with NaN | image-processing |
 
-Berdasarkan hasil dari tabel diatas, keseluruhan rekomendasi blog memiliki topic yang sama dengan topic blog patokan. Maka nilai presisi dari rekomendasi pada tabel 10 adalah 100%.
+Berdasarkan hasil dari tabel diatas, nilai presisi dan __recall__ dapat diketahui
+
+$Precision$ = $\frac{{\text{{True Positive}}}}{{\text{{True Positive}} + \text{{False Positive}}}}$
+
+$Precision$ = $\frac{{\text{{5}}}}{{\text{{5}} + \text{{0}}}}$
+
+$Precision$ = $1$
+
+
+
+$Recall$ = $\frac{{\text{{True Positive}}}}{{\text{{True Positive}} + \text{{False Negative}}}}$
+
+$Recall$ = $\frac{{\text{{5}}}}{{\text{{5}} + \text{{0}}}}$
+
+$Recall$ = $1$
+
+Berdasarkan hasil tersebut, maka nilai __precission__ dan __recall__ dari rekomendasi pada tabel 10 adalah 100%.
 
 #### Rekomendasi Blog EVE Ignites NFT Hope
 Tabel 11. Daftar rekomendasi blog dengan judul blog patokan EVE Ignites NFT Hope
@@ -220,7 +243,25 @@ Tabel 11. Daftar rekomendasi blog dengan judul blog patokan EVE Ignites NFT Hope
 |  3 | Meloria -a Solana NFT Project to Keep an Eye On                                                 | web3    |
 |  4 | What is Haven1?                                                                                 | web3    |
 
-Dari nilai metrik evaluasi terlihat model memiliki kemampuan rekomendasi yang baik.Content-based filtering yang presisinya bisa mencapai 100% yang artinya tempat yang direkomendasikan sangat relevan dengan tempat yang sedang dicari. Ini juga menjadi kelebihan pendekatan content-based filtering yang bisa secara tepat memberikan rekomendasi barang yang spesifik.
+Berdasarkan hasil dari tabel diatas, nilai presisi dan __recall__ dapat diketahui
+
+$Precision$ = $\frac{{\text{{True Positive}}}}{{\text{{True Positive}} + \text{{False Positive}}}}$
+
+$Precision$ = $\frac{{\text{{5}}}}{{\text{{5}} + \text{{0}}}}$
+
+$Precision$ = $1$
+
+
+
+$Recall$ = $\frac{{\text{{True Positive}}}}{{\text{{True Positive}} + \text{{False Negative}}}}$
+
+$Recall$ = $\frac{{\text{{5}}}}{{\text{{5}} + \text{{0}}}}$
+
+$Recall$ = $1$
+
+Berdasarkan hasil tersebut, maka nilai __precission__ dan __recall__ dari rekomendasi pada tabel 11 adalah 100%.
+
+Dari nilai metrik evaluasi terlihat model memiliki kemampuan rekomendasi yang sangat baik.Content-based filtering yang nilai presisi dan __recall__ mencapai 100% yang artinya blog yang direkomendasikan sangat relevan dengan blog patokan. Ini juga menjadi kelebihan pendekatan content-based filtering yang bisa secara tepat memberikan rekomendasi blog yang spesifik.
 
 
 ## Conclusion
@@ -241,7 +282,7 @@ Selain itu, random sampling dapat mengurangi bias yang mungkin muncul dalam pros
 
 Pada proyek ini, diterapkan metode Content Based Filtering. Metode ini mengambil informasi tentang item dan mencocokkannya dengan profil atau preferensi pengguna untuk memberikan rekomendasi yang sesuai. Pendekatan Content-Based Filtering didasarkan pada asumsi bahwa pengguna lebih cenderung tertarik dengan item yang memiliki karakteristik serupa dengan item yang mereka sukai sebelumnya. Oleh karena itu, metode ini mengidentifikasi atribut-atribut penting dari setiap item, seperti topik, genre, kata kunci, atau metadata lainnya, dan membangun profil konten untuk setiap item.
 
-Output dari Content-Based Filtering adalah daftar rekomendasi blog untuk setiap user berdasarkan pengukuran kemiripan dengan blog preferensi pengguna. Dari hasil evaluasi, dapat dilihat bahwa sistem rekomendasi yang dibuat sudah sangat baik dan layak digunakan. Sistem rekomendasi dengan metode Content-Based Filtering hasil yang sangat baik nilai presisi sebesar 100%.
+Output dari Content-Based Filtering adalah daftar rekomendasi blog untuk setiap user berdasarkan pengukuran kemiripan dengan blog preferensi pengguna. Dari hasil evaluasi, dapat dilihat bahwa sistem rekomendasi yang dibuat sudah sangat baik dan layak digunakan. Sistem rekomendasi dengan metode Content-Based Filtering hasil yang sangat baik nilai presisi dan __recall__ sebesar 100%.
 
 ## Reference
 
