@@ -16,13 +16,13 @@ Secara keseluruhan, sistem rekomendasi blog memiliki peran krusial dalam meningk
 Sistem rekomendasi blog juga memiliki potensi bisnis yang besar. Dalam lingkungan yang penuh persaingan ini, pemilik blog dan platform berlomba-lomba untuk menarik dan mempertahankan pengguna. Dengan memberikan rekomendasi blog yang paling relevan dan menarik, sistem rekomendasi blog dapat meningkatkan keterlibatan pengguna, memperluas jangkauan audiens, dan meningkatkan kepuasan pengguna. Hal ini berpotensi membawa dampak positif pada pertumbuhan bisnis dan keberhasilan platform.
 
 ### Problem Statements
-1. Bagaimana mengembangkan sistem rekomendasi blog  yang dapat merekomendasikan blog yang relevan dengan presisi minimal 90%?
+1. Bagaimana mengembangkan sistem rekomendasi blog  yang dapat merekomendasikan blog yang relevan dengan presisi dan __recall__minimal 90%?
 
 ### Goals
-1. Mengembangkan sistem rekomendasi blog  yang dapat merekomendasikan blog yang relevan dengan presisi minimal 90%.
+1.  Mengembangkan sistem rekomendasi blog  yang dapat merekomendasikan blog yang relevan dengan presisi dan __recall__minimal 90%?
 
 ### Solution Statement
-* Membangun model sistem rekomendasi dimana akan menggunakan pendekatan Content Based Filtering yaitu dengan memberikan rekomendasi berdasarkan blog yang pernah dibaca pengguna dengan mengukur kesamaan blog berdasarkan topic. Model Content Based Filtering yang akan dibangun menggunaka metode Cosine Similarity dan evaluasi akan menggunakan metode Precission.
+* Membangun model sistem rekomendasi dimana akan menggunakan pendekatan Content Based Filtering yaitu dengan memberikan rekomendasi berdasarkan blog yang pernah dibaca pengguna dengan mengukur kesamaan blog berdasarkan topic. Model Content Based Filtering yang akan dibangun menggunaka metode Cosine Similarity dan evaluasi akan menggunakan __precission__, __recall__, dan __f1-score__.
 
 ## Data Understanding
 Dataset yang digunakan dalam proyek ini adalah Blog Recommendation Data yang dari [kaggle]([https://www.kaggle.com/datasets/laotse/credit-risk-dataset](https://www.kaggle.com/datasets/yakshshah/blog-recommendation-data)). Dataset terdiri dari 3 filr csv yaitu
